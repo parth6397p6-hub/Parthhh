@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parth Laptop Infotech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(90deg, #000000, #1f1f1f);
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 2s;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00bcd4;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+      animation: fadeInUp 1.5s;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .service-card {
+      background: #1a1a1a;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0, 188, 212, 0.3);
+      transition: 0.4s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 25px rgba(0, 188, 212, 0.6);
+    }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25d366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(37, 211, 102, 0.8);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Parth Laptop Infotech</h1>
+    <p>Your Tech, Our Care!</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We specialize in laptop repair, software installation, CCTV setup, biometric installation, and printer servicing. Fast, reliable, and customer-friendly service — all under one roof.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>💻 Laptop Sale & Service</h3>
+        <p>Old and new laptops available with complete repair & maintenance support.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>🧠 Software Installation</h3>
+        <p>All kinds of operating systems and professional software installation.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>🎥 CCTV Installation</h3>
+        <p>High-quality CCTV setup with remote access and maintenance support.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>🖐️ Biometric Installation</h3>
+        <p>Reliable biometric attendance systems for offices and institutions.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>🖨️ Printer Service & Toner Refilling</h3>
+        <p>Expert printer repair and high-quality toner refilling at affordable rates.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>🔌 Accessories</h3>
+        <p>All laptop and PC accessories available with warranty and installation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 DD Plaza Basement, Dampier Nagar, Mathura<br>
+    📞 8077024408 | 9410038764</p>
+    <p>© 2025 Parth Laptop Infotech | All Rights Reserved</p>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/918077024408" target="_blank">💬 Chat on WhatsApp</a>
+
+</body>
+</html>
